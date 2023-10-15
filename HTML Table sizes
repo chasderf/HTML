@@ -1,0 +1,18 @@
+HTML table sizes
+HTML tables have different size for each column, row, or the entire table
+Use the style attribute with the width or height properties to specify the size of a table, row, or
+columns
+
+HTML table width
+To set the width of a table, add the style attribute to the <table> element
+<table style = “width:100%”>
+</table>
+
+Note using a percentage as the size unit for width means how wide will element be compared to its
+parent element,w h chic in this case is the <body> element
+
+HTML table column width
+To set the size of a specific column, add the style attribute on a <th> or <td> element
+
+HTML table row height
+To set the height of a specific row, add the style attribute on a table row element
