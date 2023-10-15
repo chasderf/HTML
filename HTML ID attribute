@@ -1,0 +1,27 @@
+HTML ID attribute
+The id attribute is used to specify a unique id for an HTML element
+The value of the id attribute must be unique within the HTML document
+The id attribute is used by CSS and jaws to style/select a specific element
+The value of the id attribute is case sensitive
+The id attribute is also used to create HTML bookmarks
+JavaScript can access an element wiht a specific id with the getElementById ( ) method
+
+The HTML <iframe> tag specifies an inline frame
+The src attribute defines the URL of the page to embed
+Always include a title attribute (for screen readers)
+The height and width attributes specifies the size of the iframe
+Use border:none; to remove the border around the iframe
+
+<iframe> defines an inline frame
+
+<script> defines a client - side script
+<noscript> defines an alternate content for users that do not support client side scripts
+
+tag
+<head> defines information about the document
+<title> defines the title of a document
+<base> defines a default address or a default target for all links on a page
+<link> defines the relationship between a document and an external resource
+<meta> defines metadata about an HTML document
+<script> defines a client - side script
+<style> defines style information for a document
