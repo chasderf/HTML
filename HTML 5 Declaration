@@ -1,0 +1,198 @@
+The <!DOCTYPE> declaration represents the document type
+For HTML 5, the declaration must have <!DOCTYPE html>
+
+HTML headings
+HTML headings are defined with the <h1> to <h6> tags
+<h1> defines the most important heading;; <h6> is the least important heading
+
+HTML paragraphs
+
+HTML paragraphs are defined with the <p> tag::
+
+HTML links
+HTML links are defined with the <a> tag
+
+<a href = “https://www.w3schools.com”>This is a link</a>
+
+The links destination is specified in the href attributes
+Attributes are used to provide additional information about html elements
+
+HTML images
+HTML images are defined with the <img> tag
+The source file (src ), alternative text ( alt ), width, and height are provided as attributes
+
+<img src=“w3schools.jpg” alt = “W3schools.com” width = “184” height=“142”>
+
+To end the line and go into the next line <br>
+This does not require a closing tag
+
+<h1> “yellow world” <br> “how are we today” </h1>
+
+The HREF attribute
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to
+
+<a href = “https://www.w3schools.com”> Visit W3schools </a>
+
+The SRC attribute
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to
+the image to be displayed:
+<img src = “img_girl.jpg”>
+
+So the SRC specifies the path for the image
+
+The width and height attributes
+The <img> tag should also contain the width and height attributes which specifies the width and
+height of the image
+<img src = “img_girl.jpg” width = “500” height = “600” >
+
+The alt Attribute
+The requires alt attribute for the <img> tag specifies an alternative text for an image, if the image for
+some reason canot be displayed. This can due to slow connection or an error in the src attribute, or
+if the user uses a screen reader
+<img src = “img)girl.jpg” alt = “Girl With a jacket”>
+
+The style attribute
+The STYLE attribute is used to add styles to an element, such as color, font, size, and more
+
+<p style = “color:red;”>this is a red paragraph.</p>
+
+The lang attribute
+You should always include the lang attribute inside the <html> tag, to declare the language of the
+web page. This is meant to assist search engines and browsers
+
+The following example specifies English as the language
+
+<!DOCTYPE html>
+<html lang = “en” >
+<body>
+. . .
+</body>
+</html>
+
+The title attribute
+The title attribute defines some extra information about an element
+The value of the title attribute will be displayed as a tooltip when you mouse over the element
+
+<p title = “I’m a tooltip”> This is a paragraph. </p>
+
+Quote attribute values
+The html standard doesn’t require quotes around attribute values
+
+Single or Double quotes:
+Double quotes around attribute values are the most common in html, but single quotes can also be
+used. In some situations when the attribute value itself contains double quotes, it is neccarry to use
+single quotes
+
+Larger headings::
+Each html heading has a default size. However, you can specify the size for any heading with the
+style attribute, using the css font-size property:
+
+<h1 style = “font - size: 60 px;” > heading 1 </h1>
+
+HTML tag reference
+
+<html> defines the root of an html document
+<body> defines the documents Boyce
+<h1> to <h6> defines HTML headings
+
+HTML paragraphs
+The HTML <p> element defines a paragraph
+A paragraph always starts on a new line, and browsers automatically add some white space ( a
+
+margin) before and after a paragraph
+
+<p> this is a paragraph. </p>
+<p> this is another paragraph. </p>
+
+The extra spaces or lines in a html page will not self correct, it varies on your windows size with the
+actual compiler, however the actual compiler will not change my display with the extra spaces or
+extra lines
+
+HTML horizontal rules::
+The <hr> tag defines a thematic break in an html page and is most often displayed as a horizontal
+rule
+
+The <hr> element is used to separate constant (or define a change) in an HTML page
+
+The <hr> tag is an empty tag, which means that it has no end tag
+
+Code code code
+<p> this is some other text. </p>
+<hr>
+
+Solution - the HTML <pre> element
+The html <pre> element defines pre formatted text
+The text inside a <pre> element is displayed in a fixed-width font (usually courier), and it preserves
+both spaces and line breaks
+
+<p> the pre tag preserves both spaces and line breaks: </p>
+
+<pre>
+My Bonnie lies over the ocean
+Blah blah
+
+Blah blah
+</pre>
+//this will keep both spaces and line breaks
+
+<p> defines a paragraph
+<hr> defines a thematic change in the content with a horizontal line
+<br> inserts a single line break
+<pre> defines a pre formatted text
+
+The HTML style attribute
+Setting the styl of an html element can be done with the style attribute
+The html style attribute has the following syntax:
+
+<tag name style = “property:value;”>
+The property is a css property and the value is a css value
+
+The CSS background color property defines the background color for an html element
+
+Text color
+The CSS color property defines the text color for an html element
+
+FONTS
+The CSS font family property defines the font to be used for an HTML element
+
+Text Size
+The CSS font size property defines the text size for an html element
+
+Text alignment
+The CSS text align property defines the horizontal text alignment for an html element
+<h1 style = “text-align:center;”> entered heading </h1>
+
+HTML formatting elements
+<b> - bold text
+<strong> - important text
+<i> - italic text
+<em> - emphasized text
+<mark> - marked text
+<small> - smaller text
+<del> - deleted text
+<ins> - inserted text
+<sub> - subscript text
+<sup> - superscript text
+
+Uhhh in html both <b> and <strong> have the same purpose to display text in bold
+
+HTML <i> and <em> elements :: the HTML <i> element defines a part of text in an alternate voice or
+mood. The content inside is typically displayed in italic
+TIP: the <i> tag is often used to indicate a technical term, a phrase from another language, a
+thought, a ship name, etc
+
+The html <‘em> element defines emphasized text. The content inside is typically displayed in italic.
+TIP: a screen reader will pronounce the words in <em> with an emphasis using verbal stress
+
+HTML text formatting elements::
+
+<b> defines bold text
+<em> defines emphasized text
+<i> defines a part of text in an alternative voice or mode
+<small> defines smaller text
+<strong> defines important text
+<sub> defines sub scripted text
+<sup> defines superscipted text
+<ins> defines inserted text
+<del> defines deleted text
+<mark> defines marked/highlighted text
