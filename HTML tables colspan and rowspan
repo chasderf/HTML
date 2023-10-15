@@ -1,0 +1,8 @@
+HTML tables can have cells that spans over multiple rows and/or columns
+HTML table- colspan
+To make a cell span over multiple columns, use the colspan attribute
+Note: the value of the colspan attribute represents the number of columns to span
+
+HTML table - rowspan
+To make a cell span over multiple rows, use the rowspan attribute
+NOTE: the value of the rowspan attribute represents the number of rows to span
