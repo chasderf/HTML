@@ -1,0 +1,67 @@
+A background image can be specified for almost any HTML element
+
+Background image on a HTML element
+To add a background image of an HTML element, use the HTML style attribute and the CSS
+background - image property
+
+<p style = “background-image: url(‘img_girl.jpg’);”>
+
+You can also specify the background image in the <style> element in the <head> section
+
+Specify the background image in the <style> element
+
+<style>
+P {
+Background-image: url(‘img_girl.jpg’);
+}
+</style>
+
+Background image on a page
+If you want the entire page to have a background image, you must specify the background image on
+the <body> element
+<style>
+Body {Background - image: url(‘img_girl.jpg’); }
+
+</style>
+
+To avoid the background image from repeating itself, set the background-repeat property to no-
+repeat
+
+<style>
+Body {
+Background - image: url (‘example_img_girl.jpg’);
+Background-repeat: no repeat;
+}
+</style>
+
+Background cover
+If you want the background image to cover the entire element, you can set the background-size
+property to cover
+
+Also to make sure the entire element is always covered, set the background-attachment property to
+fixed:
+
+This way the background image will cover the entire element wiht no stretching (the image will
+keeep its original proportions)
+
+<style>
+Body {
+Background-image: url (‘img_girl.jpg’);
+Background repeat: no-repeat;
+Background-attachment: fixed;
+Background-size: cover;
+}
+</style>
+
+Background stretch
+If you want the image to stretch to fit an entire element, you can set the background size property
+to 100% 100% :
+
+<Style>
+Body {
+background - image : url (‘img_girl.jpg’);
+Background-repeat: no-repeat;
+Background-attachment: fixed;
+Background-size: 100% 100%;
+}
+</style>
