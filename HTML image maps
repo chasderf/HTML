@@ -1,0 +1,55 @@
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The
+areas are defined with one or more <area> tags
+
+The image::
+
+The image is inserted using the <img> tag. The only difference from other images is that you must
+add a use map attribute
+
+<img src = “workplace.jpg” alt = “workplace” use map = “#workmap”>
+
+The use map value starts with a “#” followed by the name of the image map, and is used to create a
+relationship between the image and the image map
+
+Create image Map
+Then add a <map> element
+The <map> element is used to create an image map, and is linked to the image by using the
+required name attribute:
+<map name = “workmap”>
+
+The name attribute must have the same value as the <img> s use map attribute
+
+The areas
+Then add the clickable areas
+a clickable area becomes defined using an <area> element
+
+Shape::
+You must define the shape of the clickable area and you can choose these parameters::
+Rect- defines a rectuabngular region
+Circle - defines a circular region
+Poly - defines a polygonal region
+Default - defines the entire region
+
+You must also define some coordinates to be able to place the clickable area onto the image
+
+Shape. = “rect”
+The coordinates for shape = “rect” come in Paris, one for the x-axis and one for the y-axis
+
+So the coordinates 34, 44 is located 34 pixels format he left margin and 44 pixels from the top
+
+<area shape =“rect” coords = “34, 44, 270, 350” href = “computer.htm”>
+
+Image map and JavaScript
+A clickable area can also trigger a JavaScript function
+
+Add a click event to the <area> element to execute a JavaScript function
+
+Use the HTML <map> element to define an image map
+Use the HTML <area> element to define the clickable areas in the image map
+Use th eHTML use map attribute of the <img> element to point to an image map
+
+HTML image tag
+<img> defines an image
+<map> defines an image map
+<area> defines a clickable area inside an image map
+<picture> defines a container for multiple image resources
