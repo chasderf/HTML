@@ -1,0 +1,59 @@
+The HTML <ol> tag defines an ordered list. An ordered list can be numberical or alphabetical
+
+Ordered HTML list
+An ordered list starts with the <ol> tag. Each list item starts with the <li> tag
+
+The list items will be marked with numbers by default
+
+Ordered HTML list- the type attribute
+
+The type attribute of the <oil> tag, defines the type of the list item marker:
+
+Type description
+Type = “1” the list items will be numbered with numbers (default)
+Type = “A” the list items will be numbered with uppercase letters
+Type = “a” the list items will be numbered with lowercase letters
+Type = “I” the list items will be numbered with uppercase Roman numbers
+Type = “i” the list items will be numbered with lowercase Roman numbers
+
+<ol type = “1/a/i”>
+<li> coffeee</li>
+<li> tea</li>
+
+<li> carton</li>
+</ol>
+
+Control list counting
+
+By default, an ordered list will start counting from 1. If you want to start counting from a specified
+number, you can use the start attribute:
+<ol start = “50”>
+<li>cofee</li>
+<li> tea</li>
+<li> milk </li>
+</ol>
+
+Nested HTML lists
+Lists can be nested (list inside list):
+
+<ol>
+<li> coffee</li>
+<li>tea
+<ol>
+<li>black tea</li>
+<li> green tea</li>
+
+<li> honey suckle tea </li>
+</ol>
+<li>milk </li>
+<ol>
+<li> Chocoalate milk </li>
+<li> orea milk </li>
+<li> strawberry milk </li>
+</ol>
+
+A list item (<li>) can contain a new list, and other HTML elements, like images and links etc.
+
+Chapter summary
+Use the HTML type attribute to define the numbering type
+Lists can be nested wihtin another <ol> element
