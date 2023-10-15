@@ -1,0 +1,24 @@
+HTML tables can have headers for each column or row, or for many columns/rows
+
+HTML table headers,
+Table headers are defined with th elements, each th element represents a table cell
+
+Vertical table headers
+To use the first column as table headers, define the first cell in each row as a th element
+
+Align table headers
+By default, table headers are bold and centered
+To left alight the table headers, use the CSS text-align property
+
+Th {
+Text-align: left
+}
+
+Header for multiple columns
+You can have a header that spans over two or more columns
+To do this, use the colspan attribute on the <th> element
+
+Table caption
+You can add a caption that serves as a heading for the entire table
+To add a caption to a table, use the <caption> tag
+Note: the <caption> tag should be inserted immediately after the <table> tag
