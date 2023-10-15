@@ -1,0 +1,16 @@
+A favicon is a small image displayed next to the page title in the browser tab
+How to add a favicon in HTML
+You can use any image as your favicon
+A favicon is a small image, so it should be simple image with high contrast
+
+Soooo ooooo lil image in tab, is called favicon
+
+To add a favicon to my website, either save the favicon image to the root directory of your
+webserver, or create a folder in the rooot directory called images, and save your favicon image in
+this folder. A common name for a favicon image is “favicon.ico”
+Next add a <link> element to your “index.html” file after the <title> element; like this
+
+Chapter summary
+
+Use the HTML <link> element to insert a favicon
+<link> defines the relationship between a document and an external resource
