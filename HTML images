@@ -1,0 +1,97 @@
+The HTML <img> tag is used to embed an image in a web page
+
+Images are not technically inserted into a web page; images are linked to web pages. The <img> tag
+creates a holding space for the referenced image.
+
+The <img> tag is empty, it contains attributes only, and does not have a closing tag
+
+The <img> tag has two required attributes
+
+Src - specifies the path to the image
+Alt - specifies an alternate text for the image
+
+<img src = “url” alt = “alternate text”>
+
+The src attribute
+
+The required src attribute specifies the path (URL) to the image
+
+Note when a web page loads, the image from a web server and inserts it into the page. Therefor,
+make sure that the image actually stays in the same spot in relation to the web page, otherwise your
+visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser
+cannot find the image
+
+The alt attribute
+
+The required alt attribute provides an alternative text for an image, if the user for some reason
+cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen
+reader)
+
+The value of the alt attribute should describe the image:
+<img src = “img_chania.jpg” alt = “Flowers in Chania”>
+
+If a browser cannot find an image, it will display the value of the alt attribute
+<img src = “wrong name.gif” alt = “Flowers in Chania”
+
+Image size - width and Height
+You can use the style attribute to specify the width and height of an image
+<img src = “img_girl.jpg” alt = “Girl in a jacket” style = “width:500px;height: 600px;”>
+
+Alternatively you can use the width and height attributes
+<img src = “img_girl.jpg” alt = “Girl in a jacket” width = “500” height = “600”>
+
+The width and height attributes always define the width and height of the image in pixels
+
+We surgest using the style attribute. It prevents styles sheets from changing the size of images
+
+Images in another folder
+If you have your images in a sub-folder, you must include the folder name in the src attribute
+
+<img src = “/images/html5.gif” alt = “HTML5 icon” style = “width:128px; height:128px;”>
+
+Images on another server/website
+
+Some web sites point to an image on another server
+
+To point to an image on another server, you must specify an absolute (full) URL in the src attribute
+
+<img src = “https://www.w3schools.com/images/w3schools_green.jpg” alt = “w3schools.com”>
+
+Animated images
+HTML allows animated GIFS
+<img src = “programming.gif” alt = “Computer Man” style = “width:48px; height: 48px;”>
+
+Images as a link
+To use an image as a link, put the <img> tag inside the <a> tag
+<a href = “default.asp”>
+<img src = “smiley.gif” alt = “HTML tutorial” style = “width:42px;height:42px;”>
+</a>
+
+Image floating
+Use the CSS float property to let the image float to the right or to the left of a text
+
+<p> img src = “smiley.gif” alt = “smiley face” style = “float:right;width:42px; height: 42px”> the
+image will float to the right of the text. </p>
+
+Abbreviations:: file format file extension
+APNG animated portable network graphics .apng
+GIF graphics interchange format .gif
+ICO Microsoft icon .ico :: .cur
+JPEG Joint photographic expert group image .jpg .jpeg :: .jfif :: .pjpeg :: .pop
+PNG Portable network graphics .png
+SVG scalable vector graphics .svg
+
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternative text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size
+of the image
+
+Use the CSS float property to let the image float to the left or the right
+
+Image tags
+
+<img> defines an image
+<map> defines an image map
+<area> defines a clickable area inside an image map
+<picture> defines a container for multiple image resources
