@@ -1,0 +1,58 @@
+The HTML <ul> tag defines an unordered bulleted list
+
+Unordered HTML list
+
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag
+
+Each list item starts with the <li> tag
+The list items will be marked with bullets (small black circles b
+
+UNORDERED HTML list - choose list item marker
+
+The CSS list-style-type property is used to define the style of the list item marker. It can have one of
+the following values:
+
+Value description <ul style = “list-style-type:”square/disc;”>
+
+Disc sets the list item marker to a bullet (default)
+Circle sets the list item marker to a circle
+Square sets the list item marker to a square
+
+None the list items will not be marked
+
+<ul style = “list-style-type:disc;”>
+<li> Coffee</li>
+<li> Tea</li>
+<li>milk</li>
+
+</ul>
+
+Nested HTML lists
+
+Lists can be nested (list inside list):
+
+<ul>
+<li>Cofee</li>
+<li> tea
+
+<ul>
+<li> black tea</li>
+<li> green tea</li>
+</ul>
+</li>
+<li>milk</li>
+</ul>
+
+A list item (<li>) can contain a new list, and other HTML elements, like images and links etc
+
+Horizontal list with CSS
+HTML lists can be styled in many different ways with CSS
+One papillary way is to style a list horizontally, to create a navigation; menu
+
+Use the HTML <ul> element to define an unordered list
+Use the CSS list-style-type property to define the list item marker
+• Use the HTML <li> element to define a list item
+• Lists can be nested
+• List items can contain other HTML elements
+• Use the CSS property float:left to display a list horizontally
+•
