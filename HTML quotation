@@ -1,0 +1,51 @@
+<abbr> defines an abbreviation or acronym
+<address> defines contact information for the author/owner of a document
+<bdo> defines the text direction
+<blockquote> defines a section that is quoted from another source
+<cite> defines the title of a work
+<q> defines a short inline quotation
+
+<blockquote> element defines a section that is quoted from another source
+Browsers usually index <blockquote> elements
+<p> blah blah </p>
+<blockquote cite = “http://www.world wild life.org/who/index/.html”>
+For 50 years, WWF has been protecting the future of nature. The worlds leading conservation
+organization WWF works in 100 countries and is supported by 1.2 million members in the us and
+close to 5 million globally </blockquote>
+
+<q> is for short quotations
+<p> WWF’s goal is to: <q> Build a future where people live in harmony with nature. </q> </p>
+
+<abbr>
+In HTML <abbr> tag defines an abbreviation or an acronym like “HTML” ; “CSS” ; “Mr. “ ; “Dr.”
+<p> the <abbr> title =“world health organization”> WHO </abbr> was founded in 1948 </p>
+
+<address>
+The HTML <address> tag defines the contact information for the author/owner of a document or an
+article.
+The contact information can be an email address, URL; physical adddress; phone number; social
+media handle; etc
+
+The text in the < address> element usually renders in italic and browsers will always add a Aline.
+Break before and after the <address> element
+<address>
+Written by John Doe. <br>
+Visit us at: <br>
+Example.com<br>
+Box 564, Disneyland <br>
+USA
+</address>
+
+HTML <cite>
+The HTML <cite> tag defines the title of a creative work (eg book, a poem, a song, a movie, a
+painting, a sculpture)
+
+Note: a persons name is not the title of a work
+The text in the <cite> element usually renders in italic
+
+<p> <cite> the scream </cite> by Edward Munch. Painted in 1893 </p>
+
+HTML <bdo> for bi directional override
+BDO stands for bi directional override
+The HTML <bdo> tag is used to override the current text direction:
+<bdo dir = “rtl”> this text will be written from right to left </bdo>
