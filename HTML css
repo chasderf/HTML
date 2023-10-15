@@ -1,0 +1,123 @@
+CSS can be added to HTML documents in 3 ways
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+The most common way to add CSS is to keep the styles in external CSS files. However in this
+tutorial we will use inline and internal styles, because this is easier to demonstrate and easier for you
+to try it yourself
+
+Inline CSS::
+An inline CSS is used to apply a unique style to a single HTML element
+An inline CSS uses the style attribute of an HTML element
+The following example sets the text color of the <h1> element to blue, and the text color of the <p>
+element to red
+<h1 style = “color:blue;” > a blue heading </h1>
+<p style = “color:red;” > a red paragraph </p>
+
+Internal CSS
+An internal CSS is used to define a style for a single HTML page
+An internal CSS is defined in the <head> section of an HTML page, within a <style> element
+The following example sets the text color of all the <h1> elements (on that page) to blue and the text
+color of ALL the <p> element to red. In addition, the page will be displayed with a “powder blue”
+background color:
+<!DOCTYPE>
+<html>
+<head>
+<style>
+Body {background - color: powder blue; }
+H1 {color: blue; }
+P {color:red; }
+</style>
+</head>
+
+<body>
+
+<h1> this is a heading </h1>
+<p> this is a paragraph </p>
+</body>
+</html>
+
+External CSS
+An external style sheet is used to define the style for many HTML pages
+To use an external style sheet, add a link to it in the <head> section of each HTML page
+<!DOCTYPES html>
+<html>
+<head>
+<link rel = “style sheet” href = “style.css”>
+</head>
+<body>
+<h1> this is a heading </h1>
+<p> this is a paragraph </p>
+</body>
+</html>
+
+The external style sheet can be written in any text editor. The file must not contain any HTML code
+and must be saved with a .css extension
+Here is what the “styles.css” file looks like
+“Styles.css”
+Body {
+Background color : powder blue;
+}
+h1 {
+Color: blue }
+P { color: red }
+
+CSS colors, fonts, and sizes
+Here we will demonstrate some commonly used CSS properties. You will learn more about them
+
+later
+The css color property defines the text color to be used
+The CSS font family property defines the font to be used
+The CSS font-size property defines the text size to be used
+
+<!DOCTYPES html>
+<html>
+<head>
+<style>
+H1 {
+Color :blue;
+Font - family: verdana;
+Font - size: 300%;
+}
+p {
+Color: red
+Font - family: courier;
+Font - size: 300%;
+}
+</style>
+</head>
+<body>
+<h1> this is a heading </h1>
+<p> this is a paragraph </p>
+</body>
+</html>
+
+CSS border
+The CSS border property defines a border around an HTML element
+Tip you can define a border for nearly all HTML elements
+Use of CSS border property
+P {
+Border: 2px solid powder blue;
+}
+
+CSS padding
+The CSS padding property defines a paddding (space) between the text and the border
+P {
+Border: 2px solid powder blue;
+Padding: 30px;
+}
+
+CSS margin
+The CSS margin property defines a margin (space) outside the border
+
+p {
+border: 2px solid powder blue;
+Margin:50 px;
+}
+
+Link to external CSS
+External style sheets can be referenced with a full URL or with a path relative to the current web
+page
+<link rel = “style sheet” href = “https://www.w3sschools.com/html/styles.css”>
+
+<link rel = “style sheet” href = “/html/styles.css”>
