@@ -1,0 +1,37 @@
+HTML lists allow web developers to group items into a list
+
+Unordered HTML list
+
+An unordered list starts with the <ul> tag. Each list item starts with <li> tag
+The list items will be marked with bullets ( small black circles) by default:
+
+<ul>
+<li>coffee</li>
+<li> milk </li>
+</ul>
+
+HTML description lists
+HTML also supports description lists.
+A description list is a list of terms, with a description of each term
+The <dl> tag defines the description list, the <dt> tag defines the term (name) and the <dd> tag
+describes each term
+
+EX description lists
+
+<dl>
+<dt> coffee</dt>
+<dd>- black hot drink </dd>
+<dt>Milk</dt>
+<dd>-white cold drink</dd>
+</dl>
+
+A description list is awesome
+
+HTML list tags
+
+<ul> defines an unordered list
+<ol> defines an ordered list
+<li> defines a list item
+<dl> defines a description list
+<dt> defines a term in a description list
+<dd> describes the term in a description list
