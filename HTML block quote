@@ -1,0 +1,9 @@
+HTML <block quote> for quotations
+The HTML <block quote> element defines a section that is quoted from another source
+Browsers usually indent <block quote> elements
+
+<p> here is a quote from WWF’s website:</p>
+<block quote cite=“https://www.world wildlife.ord/who/index.html”>
+For 50 years, WWF has been protecting the future of nature.
+The worlds leading conservationrganization...
+</block quote>
