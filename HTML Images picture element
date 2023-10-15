@@ -1,0 +1,34 @@
+The HTML <picture> element allows you to display different pictures for different devices or screen
+sizes
+
+The HTML <picture> Element
+The HTML <picture> element gives web developers more flexibility in specifying image resources
+The <picture> element contains one or more <source> elements, each referring to different images
+through the srcset attribute. This way the browser can choose the image that best fits the current
+view and/or device
+Each <source> element has a media attribute that defines when the image is the most suitable
+
+<picture>
+<source media = “(min-width: 650px)” srcset = “img_food.jpg”>
+<sourc media = “(min-width: 465px)” srcset=“img_car.jpg”>
+<img src = “img_girl.jpg”>
+</picture>
+
+The <img> should be the last child element of the <picture> element because the <img> tag is used
+by browsers that do not support the <picture> element or if none of the <source> tags match
+
+1. Bandwidth::
+If you have a small screen or device, it is not neccarry to load a large image file. The browser will
+use the <source> element with matching attribute values, and ignore any of the following elements
+1. Formal support::
+some browsers or devices may not support all image formats. By using the <picture> element, you
+can add images of all formats, and the browser will use the first format it recognizes, and ignore any
+of the following elements
+
+The browser will use the first <soucre> element with matching attribute values, and ignore any
+following <source> elements
+
+<img> defines an image
+<map> defines an image map
+<area> defines a clickable area inside an image map
+<picture> defines a container for multiple image resources
