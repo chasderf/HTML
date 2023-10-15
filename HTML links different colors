@@ -1,0 +1,5 @@
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+You can change the link state colors by using CSS
